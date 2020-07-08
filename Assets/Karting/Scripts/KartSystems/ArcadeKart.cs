@@ -17,6 +17,8 @@ namespace KartGame.KartSystems
             public float MaxTime;
         }
 
+        public RaceKartProfileScriptableObject savedProfile;
+
         /// <summary>
         /// Contains a series tunable parameters to tweak various karts for unique driving mechanics.
         /// </summary>
@@ -137,6 +139,10 @@ namespace KartGame.KartSystems
             m_Inputs = GetComponents<IInput>();
             suspensionNeutralPos = SuspensionBody.transform.localPosition;
             suspensionNeutralRot = SuspensionBody.transform.localRotation;
+
+            //Actualizando a valores de stats usando scriptable objects
+
+            baseStats.TopSpeed = savedProfile.TopSpeed;
         }
 
         void FixedUpdate()

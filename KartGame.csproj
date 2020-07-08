@@ -64,8 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Karting\Scripts\ArcadeKartPowerup.cs" />
     <Compile Include="Assets\Karting\Scripts\AudioManager.cs" />
-    <Compile Include="Assets\Karting\Scripts\ChristianScripts\CarProfiles\RaceCarProfile.cs" />
-    <Compile Include="Assets\Karting\Scripts\ChristianScripts\CarProfiles\RaceCarProfileScriptableObject.cs" />
+    <Compile Include="Assets\Karting\Scripts\ChristianScripts\CarProfiles\RaceKartProfileScriptableObject.cs" />
     <Compile Include="Assets\Karting\Scripts\ChristianScripts\PowerUps\PowerUpScriptableObject.cs" />
     <Compile Include="Assets\Karting\Scripts\ChristianScripts\PowerUps\PowerUpTrigger.cs" />
     <Compile Include="Assets\Karting\Scripts\ChristianScripts\PowerUps\PowerUpsController.cs" />
