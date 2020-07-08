@@ -7,7 +7,7 @@ public class TimeManager : MonoBehaviour
 { 
     public bool IsFinite { get; private set; }
     public float TotalTime { get; private set; }
-    public float TimeRemaining { get; private set; }
+    public float TimeRemaining { get; set; }
     public bool IsOver { get; private set; }
 
     private bool raceStarted;
@@ -53,6 +53,7 @@ public class TimeManager : MonoBehaviour
         if (IsFinite && !IsOver)
         {
             TimeRemaining -= Time.deltaTime;
+            //Debug.Log(TimeRemaining);
             if (TimeRemaining <= 0)
             {
                 TimeRemaining = 0;

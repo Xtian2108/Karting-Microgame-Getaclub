@@ -101,6 +101,7 @@ namespace KartGame.Track
                 return;
             }
 
+
             finishedLapTimes.Add(Time.time - currentLapStartTime);
             currentLapStartTime = Time.time;
             
@@ -118,6 +119,8 @@ namespace KartGame.Track
 
         void Update()
         {
+
+
             if (currentLapStartTime == 0) return;
             if (lapsOver) return;
             currentLapText.SetText(DisplayCurrentLapTime());

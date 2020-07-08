@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
+    x: -1920
     y: 43
     width: 1920
     height: 997
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 442}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 185
+  controlID: 103
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 186
+  controlID: 78
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -272,7 +272,7 @@ MonoBehaviour:
   m_MinSize: {x: 276, y: 192}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 135
+  controlID: 37
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -319,8 +319,8 @@ MonoBehaviour:
     y: 564
     width: 418
     height: 383
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -373,7 +373,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: -1920
     y: 73
     width: 720
     height: 496
@@ -388,9 +388,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -34.89263, y: 6.656692, z: 53.700684}
+    m_Target: {x: 16.316828, y: 1.6408126, z: 2.0075011}
     speed: 2
-    m_Value: {x: -34.89263, y: 6.656692, z: 53.700684}
+    m_Value: {x: 16.316828, y: 1.6408126, z: 2.0075011}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -436,13 +436,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0012162045, y: 0.99602026, z: -0.013755981, w: -0.08807605}
+    m_Target: {x: -0.20225644, y: 0.18154536, z: -0.038188335, w: -0.9616101}
     speed: 2
-    m_Value: {x: -0.0012162045, y: 0.99602026, z: -0.013755981, w: -0.08807605}
+    m_Value: {x: -0.20225456, y: 0.18154368, z: -0.03818798, w: -0.96160114}
   m_Size:
-    m_Target: 10.635858
+    m_Target: 1.0538282
     speed: 2
-    m_Value: 10.635858
+    m_Value: 1.0538282
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -488,7 +488,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: -1920
     y: 590
     width: 720
     height: 409
@@ -580,7 +580,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 721
+    x: -1199
     y: 73
     width: 226
     height: 926
@@ -588,30 +588,30 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b0310000
+      m_SelectedIDs: 864c0100
       m_LastClickedID: 0
-      m_ExpandedIDs: b2faffff
+      m_ExpandedIDs: 5496feff3ca1feff98a1feff24acfeffeee4ffff18e5fffffae8ffff42edffffb2faffffdc57000014580000a44b0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Main Camera
+        m_OriginalName: Main Camera
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 84874
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
     m_LockTracker:
-      m_IsLocked: 1
+      m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 94ed88f89478d3a4395f584e7c3976bd
 --- !u!114 &18
@@ -635,7 +635,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 949
+    x: -971
     y: 73
     width: 551
     height: 926
@@ -653,34 +653,34 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Karting/Scripts/GameModes
+    - Assets/Karting/Scripts/ChristianScripts/CarProfiles
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Karting/Scripts/GameModes
+  - Assets/Karting/Scripts/ChristianScripts/CarProfiles
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Unity Projects\Karting Microgame Getaclub
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 78500000
-    m_LastClickedID: 20600
-    m_ExpandedIDs: 00000000ba4f0000bc4f0000be4f0000c04f0000c24f0000c44f0000dc4f000000ca9a3b
+    m_SelectedIDs: 7c4c0100
+    m_LastClickedID: 85116
+    m_ExpandedIDs: 00000000b84f0000ba4f0000bc4f0000be4f0000c24f0000c44f0000e44f00001069000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: ChristianScripts
+      m_OriginalName: ChristianScripts
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 26896
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -694,7 +694,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ba4f0000bc4f0000be4f0000c04f0000c24f0000c44f0000
+    m_ExpandedIDs: 00000000b84f0000ba4f0000bc4f0000be4f0000c04f0000c24f0000c44f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -749,7 +749,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 110
+  m_DirectoriesAreaWidth: 259
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -771,7 +771,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1502
+    x: -418
     y: 73
     width: 417
     height: 543
@@ -787,7 +787,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 176
+  m_LastVerticalScrollValue: 0
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -844,7 +844,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1502
+    x: -418
     y: 637
     width: 417
     height: 362

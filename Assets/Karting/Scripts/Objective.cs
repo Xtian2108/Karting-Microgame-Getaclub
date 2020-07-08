@@ -113,7 +113,8 @@ public abstract class Objective : MonoBehaviour
     
     public void RegisterPickup(TargetObject pickup)
     {
-        if (pickup.gameMode != gameMode) return;
+        if (pickup.gameMode
+            != gameMode) return;
 
         Pickups.Add(pickup);
 
