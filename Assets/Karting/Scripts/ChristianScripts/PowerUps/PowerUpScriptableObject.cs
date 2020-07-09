@@ -5,5 +5,6 @@ using UnityEngine;
 [CreateAssetMenu]
 public class PowerUpScriptableObject : ScriptableObject
 {
-    public int addTime;
+    public int addTime, addSpeed, loseControl;
+    public float jumpForce;
 }

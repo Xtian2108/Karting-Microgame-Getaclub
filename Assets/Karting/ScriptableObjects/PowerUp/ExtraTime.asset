@@ -13,3 +13,7 @@ MonoBehaviour:
   m_Name: ExtraTime
   m_EditorClassIdentifier: 
   addTime: 10
+  addSpeed: 0
+  loseControl: 0
+  timerPowerUp: 0
+  jumpForce: 0

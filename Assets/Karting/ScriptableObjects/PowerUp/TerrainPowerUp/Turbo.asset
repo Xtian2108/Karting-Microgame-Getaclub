@@ -9,17 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bae15f9dbaa231348b8e47ca002ea1ea, type: 3}
-  m_Name: Michael Schumacher
+  m_Script: {fileID: 11500000, guid: e076d71be2b6fa04792ab114873901db, type: 3}
+  m_Name: Turbo
   m_EditorClassIdentifier: 
-  TopSpeed: 30
-  Acceleration: 15
-  ReverseSpeed: 30
-  ReverseAcceleration: 15
-  AccelerationCurve: 1
-  Braking: 5
-  CoastingDrag: 0
-  Grip: 1
-  Steer: 5
-  AddedGravity: 0
-  Suspension: 1
+  addTime: 0
+  addSpeed: 30
+  loseControl: 0
+  timerPowerUp: 5
+  jumpForce: 0
