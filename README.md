@@ -7,7 +7,7 @@
   <b>Parte de este ejercicio ya estaba desarrollado en el proyecto inicialmente. Agregue cubos (están en Prefabs/PowerUps) que actúan como powerups que al pasar por ellos añaden un tiempo extra determinado por un ScriptableObject (Donde el diseñador puede modificar a conveniencia) que se puede manejar y crear desde la carpeta de proyecto. Para esto tuve que modificar el código ya hecho ya que el acceso al tiempo restante de la carrera estaba como un setter privado.</b>
 
 
-<h2>2.Crear un sistema de estadísticas a los carros en los que se puedan cambiar su velocidad máxima, aceleración, tiempo de frenado, sensibilidad al tomar curvas. Estos cambios deben poder hacerse dentro del inspector.<h2>
+<h2>2.Crear un sistema de estadísticas a los carros en los que se puedan cambiar su velocidad máxima, aceleración, tiempo de frenado, sensibilidad al tomar curvas. Estos cambios deben poder hacerse dentro del inspector.</h2>
 
 
   <b>Parte de este ejercicio también ya estaba desarrollado los stats de los carros en la clase ArcadeKart pero quise ir un poco mas allá y le añadi la opción de poder crear perfiles para diferentes tipos de autos que se puedan crear en el futuro y que estos también puedan ser modificados por el diseñador creando scriptable objects en la carpeta ScriptableObjects/KartStatProfiles</b>
