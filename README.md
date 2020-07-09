@@ -1,4 +1,4 @@
-<h2>Dev Test sobre proyecto Karting MicroGame para GetaClub</center><h2>
+<h2>Dev Test sobre proyecto Karting MicroGame para GetaClub<h2>
 
 
 1.	Crear un modo de juego en el que haya un temporizador inicial. Cuando este temporizador llegue a cero, es Game Over y el jugador vuelve a la pantalla principal. El objetivo es agarrar objetos que te dan tiempo adicional y poder llegar a la meta antes de que se acabe el tiempo.
