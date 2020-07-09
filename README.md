@@ -1,7 +1,7 @@
 <h1>Dev Test sobre proyecto Karting MicroGame para GetaClub<h1>
 
 
-<h2>1.Crear un modo de juego en el que haya un temporizador inicial. Cuando este temporizador llegue a cero, es Game Over y el jugador vuelve a la pantalla principal. El objetivo es agarrar objetos que te dan tiempo adicional y poder llegar a la meta antes de que se acabe el tiempo.<h2>
+<h2>1.Crear un modo de juego en el que haya un temporizador inicial. Cuando este temporizador llegue a cero, es Game Over y el jugador vuelve a la pantalla principal. El objetivo es agarrar objetos que te dan tiempo adicional y poder llegar a la meta antes de que se acabe el tiempo.</h2>
 
 
   <b>Parte de este ejercicio ya estaba desarrollado en el proyecto inicialmente. Agregue cubos (están en Prefabs/PowerUps) que actúan como powerups que al pasar por ellos añaden un tiempo extra determinado por un ScriptableObject (Donde el diseñador puede modificar a conveniencia) que se puede manejar y crear desde la carpeta de proyecto. Para esto tuve que modificar el código ya hecho ya que el acceso al tiempo restante de la carrera estaba como un setter privado.</b>
