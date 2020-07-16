@@ -8,81 +8,47 @@ public class KartAppearance : MonoBehaviour
     /*
         Creo arrays para cada una de las partes de que se van a personalizar para que el diseñador tenga control para hacer cambios 
     */
-    public Color[] llantaColores;
-    public Material llantaMaterial;
+    public Material wheelsMaterial;
+    public Material playerMaterial;
 
 
-    public Color[] colorJugador;
-    public Material jugadorMaterial;
-
-
-    public Texture[] texturasKart;
+    public Texture[] kartTextures;
     public Material kartMaterial;
 
     public void Start()
     {
-        llantaMaterial.color = Color.black;
+        wheelsMaterial.color = Color.black;
         kartMaterial.mainTexture = null;
     }
 
-    public void ColorLlanta(int num)
+    public void ChangeColorWheels(KartWheelsAppeareanceScriptableObject so)
     {
-        if(num == 1)
-        {
-            llantaMaterial.color = llantaColores[0];
-        }
-        else if (num == 2)
-        {
-            llantaMaterial.color = llantaColores[1];
-        }
-        else if (num == 3)
-        {
-            llantaMaterial.color = llantaColores[2];
-        }
-        else if (num == 4)
-        {
-            llantaMaterial.color = llantaColores[3];
-        }
+        wheelsMaterial.color = so.colorWheels;
     }
 
-    public void ColorJugador(int num)
+    public void ChangeColorPlayer(KartPlayerAppeareanceScriptableObject so)
     {
-        if (num == 1)
-        {
-            jugadorMaterial.color = colorJugador[0];
-        }
-        else if (num == 2)
-        {
-            jugadorMaterial.color = colorJugador[1];
-        }
-        else if (num == 3)
-        {
-            jugadorMaterial.color = colorJugador[2];
-        }
-        else if (num == 4)
-        {
-            jugadorMaterial.color = colorJugador[3];
-        }
+        playerMaterial.color = so.colorPlayer;
     }
 
 
-    public void TexturaKart(int num)
+    public void ChangeTextureKart(int num)
     {
         if (num == 1)
         {
-            kartMaterial.mainTexture = texturasKart[0];
+            kartMaterial.mainTexture = kartTextures[0];
         }
         else if (num == 2)
         {
-            kartMaterial.mainTexture = texturasKart[1];
+            kartMaterial.mainTexture = kartTextures[1];
         }
         else if (num == 3)
         {
-            kartMaterial.mainTexture = texturasKart[2];
+            kartMaterial.mainTexture = kartTextures[2];
         }
         else if (num == 4)
         {
-            kartMaterial.mainTexture = texturasKart[3];
+            kartMaterial.mainTexture = kartTextures[3];
         }
     }
 }
