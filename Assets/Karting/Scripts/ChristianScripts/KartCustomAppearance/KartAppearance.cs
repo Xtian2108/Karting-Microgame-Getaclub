@@ -8,11 +8,7 @@ public class KartAppearance : MonoBehaviour
     /*
         Creo arrays para cada una de las partes de que se van a personalizar para que el diseñador tenga control para hacer cambios 
     */
-    public Color[] llantaColores;
     public Material llantaMaterial;
-
-
-    public Color[] colorJugador;
     public Material jugadorMaterial;
 
 
@@ -25,44 +21,14 @@ public class KartAppearance : MonoBehaviour
         kartMaterial.mainTexture = null;
     }
 
-    public void ColorLlanta(int num)
+    public void CambiarColorLlanta(KartWheelsAppeareanceScriptableObject so)
     {
-        if(num == 1)
-        {
-            llantaMaterial.color = llantaColores[0];
-        }
-        else if (num == 2)
-        {
-            llantaMaterial.color = llantaColores[1];
-        }
-        else if (num == 3)
-        {
-            llantaMaterial.color = llantaColores[2];
-        }
-        else if (num == 4)
-        {
-            llantaMaterial.color = llantaColores[3];
-        }
+        llantaMaterial.color = so.colorWheels;
     }
 
-    public void ColorJugador(int num)
+    public void CambiarColorJugador(KartPlayerAppeareanceScriptableObject so)
     {
-        if (num == 1)
-        {
-            jugadorMaterial.color = colorJugador[0];
-        }
-        else if (num == 2)
-        {
-            jugadorMaterial.color = colorJugador[1];
-        }
-        else if (num == 3)
-        {
-            jugadorMaterial.color = colorJugador[2];
-        }
-        else if (num == 4)
-        {
-            jugadorMaterial.color = colorJugador[3];
-        }
+        jugadorMaterial.color = so.colorPlayer;
     }
 
 

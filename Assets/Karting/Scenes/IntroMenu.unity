@@ -1115,11 +1115,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1060407485}
-        m_MethodName: ColorJugador
-        m_Mode: 3
+        m_MethodName: CambiarColorJugador
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: 3b06b28695ba076428793ed8b46a247c,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: KartPlayerAppeareanceScriptableObject,
+            KartGame
           m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1245,11 +1247,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1060407485}
-        m_MethodName: ColorJugador
-        m_Mode: 3
+        m_MethodName: CambiarColorJugador
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: 9cd6236f54544214e8f9f3bfbb7e7368,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: KartPlayerAppeareanceScriptableObject,
+            KartGame
           m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1689,11 +1693,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1060407485}
-        m_MethodName: ColorLlanta
-        m_Mode: 3
+        m_MethodName: CambiarColorLlanta
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: 9b890936159dd1e47a31e42668ab0d45,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: KartWheelsAppeareanceScriptableObject,
+            KartGame
           m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2192,17 +2198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb35034cee8cc4b4dad785fdb4e5520b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  llantaColores:
-  - {r: 1, g: 0, b: 0.8533139, a: 1}
-  - {r: 1, g: 0, b: 0, a: 1}
-  - {r: 0, g: 1, b: 0.14067984, a: 1}
-  - {r: 0.014491081, g: 0, b: 1, a: 1}
   llantaMaterial: {fileID: 2100000, guid: 01ac3e64bdb3249e5acb38002cca9035, type: 2}
-  colorJugador:
-  - {r: 0.39279076, g: 1, b: 0.3176471, a: 1}
-  - {r: 0.99675316, g: 1, b: 0.11792451, a: 1}
-  - {r: 0.1321645, g: 0.6072909, b: 0.6226415, a: 1}
-  - {r: 0.33147714, g: 0.123398006, b: 0.4433962, a: 1}
   jugadorMaterial: {fileID: 2100000, guid: 41245d44b7e4e4a9ebe8a3e324e02795, type: 2}
   texturasKart:
   - {fileID: 2800000, guid: d8f03602f0fafe74ab6bec4f0e6624ca, type: 3}
@@ -2312,11 +2308,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1060407485}
-        m_MethodName: ColorLlanta
-        m_Mode: 3
+        m_MethodName: CambiarColorLlanta
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: a6240a39307c8e947bdf04fd012f1e59,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: KartWheelsAppeareanceScriptableObject,
+            KartGame
           m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2599,11 +2597,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1060407485}
-        m_MethodName: ColorLlanta
-        m_Mode: 3
+        m_MethodName: CambiarColorLlanta
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: a993328602f23cf43bf9476003199ca3,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: KartWheelsAppeareanceScriptableObject,
+            KartGame
           m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2859,11 +2859,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1060407485}
-        m_MethodName: ColorLlanta
-        m_Mode: 3
+        m_MethodName: CambiarColorLlanta
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: 7ad1680cf92743a468decd0de73c619d,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: KartWheelsAppeareanceScriptableObject,
+            KartGame
           m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3146,11 +3148,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1060407485}
-        m_MethodName: ColorJugador
-        m_Mode: 3
+        m_MethodName: CambiarColorJugador
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: c77e0599721d5db43a03b5a4135a63b1,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: KartPlayerAppeareanceScriptableObject,
+            KartGame
           m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4582,11 +4586,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1060407485}
-        m_MethodName: ColorJugador
-        m_Mode: 3
+        m_MethodName: CambiarColorJugador
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: 77edb7d8bcf75d449806d8b3c77ee46e,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: KartPlayerAppeareanceScriptableObject,
+            KartGame
           m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
